@@ -1,0 +1,16 @@
+[binaries]
+c =     '/opt/ioscross/bin/arm-apple-darwin11-clang'
+cpp =   '/opt/ioscross/bin/arm-apple-darwin11-clang++'
+ld =    '/opt/ioscross/bin/arm-apple-darwin11-ld'
+ar =    '/opt/ioscross/bin/arm-apple-darwin11-ar'
+strip = '/opt/ioscross/bin/arm-apple-darwin11-strip'
+
+[host_machine]
+system = 'darwin'
+cpu_family = 'arm'
+cpu = 'armv8' # my best guess?
+endian = 'little'
+
+[properties]
+is_ios = true
+
